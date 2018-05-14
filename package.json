@@ -1,0 +1,23 @@
+{
+  "name": "nabeel-portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ahmedkhan50/Nabeel-Portfolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ahmedkhan50/Nabeel-Portfolio/issues"
+  },
+  "homepage": "https://github.com/ahmedkhan50/Nabeel-Portfolio#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
