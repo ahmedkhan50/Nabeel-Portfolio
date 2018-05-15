@@ -54,7 +54,7 @@ header{
     margin-bottom: 3px;
 }
 
-h3,h5{
+h3,h4,h5{
     margin-top: 0px;
     margin-bottom: 0px;
 }
@@ -125,6 +125,21 @@ h3,h5{
     margin-left: 2rem;
 }
 
+.mt-2{
+    margin-top: 2rem;
+}
+
+.block{
+    display: block !important;
+}
+.inline-block{
+    display: inline-block;
+}
+
+.cursor-pointer{
+    cursor: pointer;
+}
+
 /*styles for mobile*/
 @media only screen and (max-width: 715px){
     .mt-xs-2{
@@ -138,7 +153,7 @@ h3,h5{
     left: 50%;
     right: 50%;
     background: #2E2EFE;
-    bottom: 0px;
+    bottom: -1px;
     height: 1px;
     transition-property: left,right;
     transition-duration: 0.3s;
@@ -146,6 +161,43 @@ h3,h5{
 }
 
 .hvr-underline:hover:before{
-    left: 0px;
-    right: 0px;
+    left: 12px;
+    right: 12px;
+}
+
+.active{
+    border-bottom: 1px solid white;
+}
+
+.active:hover:before{
+    left: 50%;
+    right: 50%;
+}
+
+main .introduction{
+     background-color: #2098D1;
+     padding: 20px;
+     color: white;
+}
+
+main .introduction .skillset_pointer{
+    transform: scale(1);
+    transition: transform 0.5s ease-in-out;
+}
+
+main .introduction a.skillset_pointer{
+    font-size: 2rem;
+    color: white;
+    text-decoration: none !important;
+}
+
+main .introduction a.skillset_pointer:hover{
+    transform: scale(1.2);
+}
+
+main #skillset{
+    max-width: 1200px;
+    overflow-x: auto;
+    margin: 2rem auto;
+    height: 350px;
 }
