@@ -93,6 +93,11 @@ Highcharts.chart('skillset', {
                     "drilldown": "jQuery"
                 },
                 {
+                    "name": "React",
+                    "y": 1,
+                    "drilldown": "React"
+                },
+                {
                     "name": "SCSS/SASS",
                     "y": 1.5,
                     "drilldown": "SCSS/SASS"

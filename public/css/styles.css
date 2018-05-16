@@ -129,6 +129,22 @@ h3,h4,h5{
     margin-top: 2rem;
 }
 
+.mb-2{
+    margin-bottom: 2rem;
+}
+
+.pr-0{
+    padding-right: 0px;
+}
+
+.large-font{
+    font-size: 17px;
+}
+
+.text-justify{
+    text-align: justify;
+}
+
 .block{
     display: block !important;
 }
@@ -200,4 +216,16 @@ main #skillset{
     overflow-x: auto;
     margin: 2rem auto;
     height: 350px;
+}
+
+#about img{
+    width: 100%;
+}
+
+hr.divider {
+	height: 6px;
+	background: url(http://ibrahimjabbari.com/english/images/hr-12.png) repeat-x 0 0;
+    border: 0;
+    width: 95%;
+    margin: 2rem auto;
 }
