@@ -7,10 +7,11 @@
     <title>Nabeel | Portfolio</title>
     <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no"></meta>
     <link rel="stylesheet" href="/css/bootstrap.min.css">
-    <link rel="stylesheet" href="/css/styles.css">
     <link rel="icon" href="/favicon.ico?v=9878787">
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/css/jquery-ui.min.css">
+    <link rel="stylesheet" href="/css/styles.css">
 </head>
 
 <body>
@@ -53,23 +54,23 @@
 </div>
 <!--end of logo section-->
 <nav id="navigate" role="navigation" class="col-xs-12 col-sm-6 col-md-6 col-lg-6 dtablecell text-center pl-0 mt-xs-2">
- <ul>
-  <li class="hvr-underline active">
-      <a href="#about" title="About Nabeel Front-end Developer">About</a>
-  </li>
-  <li class="hvr-underline">
-      <a href="#experience" title="Experience of Nabeel Front-end Developer">Experience</a>
-  </li>
-  <li class="hvr-underline">
-      <a href="#projects" title="Projects done by Nabeel Front-end Developer">Projects</a>
-  </li>
-  <li class="ml-2">
-      <a href="https://github.com/ahmedkhan50" target="_blank" title="Github of Nabeel Front-end Developer"><i class="fa fa-github fa-2x"></i></a>
-  </li>
-  <li>
-      <a href="https://www.linkedin.com/in/nabeelahmedkhan/" target="_blank" title="Linkedin of Nabeel Front-end Developer"><i class="fa fa-linkedin fa-2x"></i></a>
-  </li>
- </ul>
+    <ul>
+        <li class="hvr-underline active">
+            <a href="#about" title="About Nabeel Front-end Developer">About</a>
+        </li>
+        <li class="hvr-underline">
+            <a href="#experience" title="Experience of Nabeel Front-end Developer">Experience</a>
+        </li>
+        <li class="hvr-underline">
+            <a href="#projects" title="Projects done by Nabeel Front-end Developer">Projects</a>
+        </li>
+        <li class="ml-2">
+            <a href="https://github.com/ahmedkhan50" target="_blank" title="Github of Nabeel Front-end Developer"><i class="fa fa-github fa-2x"></i></a>
+        </li>
+        <li>
+            <a href="https://www.linkedin.com/in/nabeelahmedkhan/" target="_blank" title="Linkedin of Nabeel Front-end Developer"><i class="fa fa-linkedin fa-2x"></i></a>
+        </li>
+    </ul>
 </nav>
 <!--start of nav section-->
 </div>
@@ -78,36 +79,83 @@
 
 <main>
     <!--introduction-->
- <div class="introduction clearfix text-center">
-    <div class="col-xs-12 col-sm-8 col-md-8 col-lg-8 col-xs-offset-0 col-sm-offset-2 col-md-offset-2 col-lg-offset-2">
-        <h1>UI/Front-end Developer</h1>
-        <h3 class="mt-2">Designing and developing responsive and user interactive web applications using modern WEB technologies</h3>
-        <a class="inline-block cursor-pointer skillset_pointer mt-2" href="#skillset" title="Nabeel skill set">
+    <div class="introduction clearfix text-center">
+        <div class="col-xs-12 col-sm-8 col-md-8 col-lg-8 col-xs-offset-0 col-sm-offset-2 col-md-offset-2 col-lg-offset-2">
+            <h1>UI/Front-end Developer</h1>
+            <h3 class="mt-2">Designing and developing responsive and user interactive web applications using modern WEB technologies</h3>
+            <a class="inline-block cursor-pointer skillset_pointer mt-2" href="#skillset" title="Nabeel skill set">
             View Skillset
             <i class="fa fa-2x fa-angle-down block"></i>
         </a>
+        </div>
     </div>
- </div>
- <!--skillset diagram-->
- <div id="skillset"></div>
- <hr class="divider mb-2"></hr>
- <!--about-->
- <div id="about" class="col-xs-12 col-sm-8 col-md-8 col-lg-6 col-xs-offset-0 col-sm-offset-2 col-md-offset-2 col-lg-offset-3 mb-2 mt-2">
-     <div class="row dtable">
-         <div class="col-xs-4 col-sm-3 col-md-3 col-lg-3 pr-0 dtablecell">
-           <img src="/assets/images/nab.jpg" alt="Nabeel Photo">
-         </div>
-          <div class="col-xs-8 col-sm-9 col-md-9 col-lg-9 dtablecell">
-              <p class="large-font text-justify">I am a UI/Front-end Developer with experience of building modern WEB applications using modern Javascript libraries and frameworks.
-                 I have a master of science degree from Syracuse University. I love to build responsive, cross-browser compatible and clean user interface. 
-              </p>
-          </div>
-     </div>
- </div>
+    <!--skillset diagram-->
+    <div id="skillset"></div>
+    <!--about-->
+    <hr class="divider mb-2"></hr>
+    <div id="about" class="col-xs-12 col-sm-8 col-md-8 col-lg-6 col-xs-offset-0 col-sm-offset-2 col-md-offset-2 col-lg-offset-3 mb-2 mt-2">
+        <div class="row dtable">
+            <div class="col-xs-4 col-sm-3 col-md-3 col-lg-3 pr-0 dtablecell">
+                <img src="/assets/images/nab.jpg" alt="Nabeel Photo">
+            </div>
+            <div class="col-xs-8 col-sm-9 col-md-9 col-lg-9 dtablecell">
+                <p class="large-font text-justify">I am a UI/Front-end Developer with experience of building modern WEB applications using modern Javascript
+                    libraries and frameworks. I have a master of science degree from Syracuse University. I love to build
+                    responsive, cross-browser compatible and clean user interface.
+                </p>
+            </div>
+        </div>
+    </div>
+    <hr class="divider mb-2"></hr>
+    <!--experience-->
+    <h2 class="col-xs-12 col-sm-10 col-md-10 col-lg-10 col-sm-offset-1 col-md-offset-1 col-lg-offset-1 mb-2 bold">Experience</h2>
+    <div id="experience" class="col-xs-12 col-sm-10 col-md-10 col-lg-10 col-sm-offset-1 col-md-offset-1 col-lg-offset-1 mb-2">
+        <div id="work_exp_accordions">
+            <!--tracfone wireless Inc-->
+            <h3>
+                <div class="row">
+                <span class="col-xs-12 col-sm-4 col-md-4 col-lg-4 text-center">Tracfone Wireless, Miami, FL, USA</span>
+                <span class="col-xs-12 col-sm-4 col-md-4 col-lg-4 text-center">Web UI Developer Consultant</span>
+                <span class="col-xs-12 col-sm-4 col-md-4 col-lg-4 text-center">Jan 2017 - Till date</span>
+                </div>
+            </h3>
+            <div>
+               <ul>
+                <li>Designed and Developed tracfone multiple brands Angular applications (SPA) using ngRoute.</li>
+                <li>Used google geolocation API to fetch address based on zip code and populate it on the UI form.</li>
+                <li>Improved website load time by 58% by reducing server requests and using minified JS and CSS code.</li>
+                <li>Build a custom angular module for WEB accessibility to update HTML elements with accessible attributes dynamically.</li>
+                <li>Used Gulp as build automation tool for minification, concatenation of CSS and JS files and to generate build package.</li>
+                <li>Used SASS and SCSS to theme the websites and maintain variable mapping for each SCSS files.</li>
+                <li>End to end testing using Protractor and Webdriver and unit testing with Karma and Jasmine.</li>
+               </ul>
+               <h4 class="mt-2"><strong>Technologies: AngularJS, JavaScript, HTML5, CSS3, SCSS, SASS, Bootstrap 3, Protractor, Karma, Typescript, Angular 5, Gulp, GIT.</strong></h4>
+            </div>
+             <!--Morgan Stanley Smith Birney-->
+            <h3>
+                <div class="row">
+                <span class="col-xs-12 col-sm-4 col-md-4 col-lg-4 text-center">Morgan Stanley, New York City, NY, USA</span>
+                <span class="col-xs-12 col-sm-4 col-md-4 col-lg-4 text-center">UI Developer Consultant</span>
+                <span class="col-xs-12 col-sm-4 col-md-4 col-lg-4 text-center">March 2016 – Jan 2017</span>
+                </div>
+            </h3>
+            <div>
+              <ul>
+               <li>Build UI-Router angular application for financial advisors to create/update account based allocations for clients.</li>
+               <li>Implemented custom angular directives to add a sticky row with dynamic update when page goes beyond the viewport.</li>
+               <li>Used D3.js and Highcharts API to build data visualization charts like donut and pie chart.</li>
+               <li>Improved application launch by 5s using lazy load technique and pagination feature to stop page freeze when more data.</li>
+               <li>Implemented mock REST API’s using Express.js framework of Node.js and mongoose for ORM to support backend database calls for MongoDB database.</li>
+              </ul>
+              <h4 class="mt-2"><strong>Technologies: AngularJS, Angular Material, lodash, Highcharts API, D3.js, jQuery, AJAX, Underscore.js, JavaScript, MongoDB, Mongoose, Node.js.</strong></h4>
+            </div>
+        </div>
+    </div>
 </main>
 
 
 <script src="/js/libs/jquery-3.3.1.min.js"></script>
+<script src="/js/libs/jquery-ui.min.js"></script>
 <script src="https://code.highcharts.com/highcharts.js"></script>
 <script src="/js/app.js"></script>
 </body>

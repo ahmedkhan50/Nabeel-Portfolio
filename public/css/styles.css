@@ -156,10 +156,41 @@ h3,h4,h5{
     cursor: pointer;
 }
 
+.bold{
+    font-weight: 900;
+    color: black;
+}
+
+h2{
+    margin-top: 0px;
+}
+
 /*styles for mobile*/
 @media only screen and (max-width: 715px){
     .mt-xs-2{
       margin-top: 2rem;
+    }
+    .ui-accordion .ui-accordion-header{
+        font-size: 1.2em !important;
+    }
+    .ui-accordion .ui-accordion-content{
+        padding: 1em 1em !important;
+     }
+     .ui-accordion .ui-accordion-content ul li{
+        margin-bottom: 0.5em;
+        font-size: 1em;
+    }
+     strong{
+       font-size: 0.8em;
+    }
+    h1{
+        font-size: 2.5em;
+    }
+    h3{
+        font-size: 1.5em;
+    }
+    p{
+        font-size: 1em !important;
     }
 }
 
@@ -228,4 +259,30 @@ hr.divider {
     border: 0;
     width: 95%;
     margin: 2rem auto;
+}
+
+.ui-accordion .ui-accordion-header{
+    background-color: #2098D1;
+    padding: 1em .5em 1em .7em;
+    font-size: 1.5em;
+    color: black;
+}
+
+.ui-accordion .ui-accordion-header > .ui-icon{
+    display: none;
+}
+
+.ui-accordion .ui-accordion-content ul{
+    list-style-type: circle;
+    list-style-position: inside;
+    padding: 0px;
+}
+
+.ui-accordion .ui-accordion-content{
+   border: 1px solid #2098D1;
+}
+
+.ui-accordion .ui-accordion-content ul li{
+    padding: 0.1em;
+    font-size: 1.2em;
 }
