@@ -161,19 +161,20 @@
     </div>
     <!--projects-->
     <h2 class="col-xs-12 col-sm-10 col-md-10 col-lg-10 col-sm-offset-1 col-md-offset-1 col-lg-offset-1 mb-2 bold">Projects</h2>
-    <div id="projects" class="col-xs-12 col-sm-10 col-md-10 col-lg-10 col-sm-offset-1 col-md-offset-1 col-lg-offset-1 mb-2">
+    <div id="projects" class="col-xs-12 col-sm-10 col-md-10 col-lg-10 col-sm-offset-1 col-md-offset-1 col-lg-offset-1 mb-2 pr-0 pl-0">
         <ul>
             <!--Node chat application..-->
             <a class="col-xs-12 col-sm-6 col-md-6 col-lg-4" href="https://chat-me-in.herokuapp.com/" target="_blank" title="node chat application">
                 <div class="name_tech">
                     <div class="info">
-                    <li>
-                        <h3>Node Chat Application</h3>
-                    </li>
-                    <span>Scoket.io, HTML5, CSS3, Node.js, Express.js</span>
+                        <li>
+                            <h3>Node Chat Application</h3>
+                        </li>
+                        <span>Scoket.io, HTML5, CSS3, Node.js, Express.js</span>
                     </div>
                     <div class="description">
                         <ol>
+                            <li>Two way communication between client and server by using Socket.io.</li>
                             <li>Enable user to join a chat room and chat with members of same group.</li>
                         </ol>
                     </div>
@@ -183,9 +184,16 @@
             <a class="col-xs-12 col-sm-6 col-md-6 col-lg-4" href="https://github.com/ahmedkhan50/weather-app" target="_blank" title="weather forecast application">
                 <div class="name_tech">
                     <div class="info">
-                    <li>
-                        <h3>Weather Forecast Application</h3>
-                    </li>
+                        <li>
+                            <h3>Weather Forecast Application</h3>
+                        </li>
+                        <span>Node.js, HTML5, CSS3, Yargs, geolocation-api</span>
+                    </div>
+                    <div class="description">
+                        <ol>
+                            <li>NodeJS based command line tool to get weather based on address arguments.</li>
+                            <li>Consumed google geolocation API and Darkspy net API to get location and weather.</li>
+                        </ol>
                     </div>
                 </div>
             </a>
@@ -193,9 +201,19 @@
             <a class="col-xs-12 col-sm-6 col-md-6 col-lg-4" href="https://github.com/ahmedkhan50/ShoppingCart" target="_blank" title="shopping cart">
                 <div class="name_tech">
                     <div class="info">
-                    <li>
-                        <h3>online shopping cart</h3>
-                    </li>
+                        <li>
+                            <h3>Online Shopping Cart</h3>
+                        </li>
+                        <span>Javascript, AJAX, REST, CSS, HTML, SQL</span>
+                    </div>
+                    <div class="description">
+                        <ol>
+                            <li>Online shopping store for books.</li>
+                            <li>Added feature called add to favorites to enable storing selected item of user using POST call
+                                of REST API.</li>
+                            <li>Implemented data search by adding autocomplete feature and used debouncing technique to stop
+                                search API from being hit very frequently for every key stroke.</li>
+                        </ol>
                     </div>
                 </div>
             </a>
@@ -203,9 +221,19 @@
             <a class="col-xs-12 col-sm-6 col-md-6 col-lg-4" href="https://github.com/ahmedkhan50/Node-API-s" target="_blank" title="Node Rest API's'">
                 <div class="name_tech">
                     <div class="info">
-                    <li>
-                        <h3>Todo REST API's in express</h3>
-                    </li>
+                        <li>
+                            <h3>Todo REST API's in express</h3>
+                        </li>
+                        <span>ES6, Mongoose, Mongo-db, Express, Lodash, Heroku</span>
+                    </div>
+                    <div class="description">
+                        <ol>
+                            <li>Rest API’s build using express framework as middleware and mongoDB database with mongoose as
+                                framework for handling the backend.</li>
+                            <li>Used crypto module to obtain authentication token to validate user and b-crypt algorithm to obtain
+                                hashing of password.</li>
+                            <li>Used superset, expect node modules to unit test the REST routes.</li>
+                        </ol>
                     </div>
                 </div>
             </a>
@@ -214,9 +242,18 @@
                 target="_blank" title="Septa Regional Fare Calculator">
                 <div class="name_tech">
                     <div class="info">
-                    <li>
-                        <h3>SEPTA Fare Calculator</h3>
-                    </li>
+                        <li>
+                            <h3>SEPTA Fare Calculator</h3>
+                        </li>
+                        <span>JSON, jQuery, AJAX, HTML, CSS3, Javascript</span>
+                    </div>
+                    <div class="description">
+                        <ol>
+                            <li>Build UI Template using HTML5 having 4 zones for fare calculation.</li>
+                            <li>Used HTML 5 local storage to enhance application performance by storing fare-zone JSON data in
+                                local storage.</li>
+                            <li>Used jQuery browser events to handle various user event handling scenarios.</li>
+                        </ol>
                     </div>
                 </div>
             </a>
@@ -225,15 +262,32 @@
                 title="Java Based Calendar">
                 <div class="name_tech">
                     <div class="info">
-                    <li>
-                        <h3>Java Based Calendar</h3>
-                    </li>
+                        <li>
+                            <h3>Java Based Calendar</h3>
+                        </li>
+                        <span>Java, Java Swings</span>
+                    </div>
+                    <div class="description">
+                        <ol>
+                            <li>Used java provided GUI components of Java Swings to construct calendar.</li>
+                        </ol>
                     </div>
                 </div>
             </a>
         </ul>
     </div>
 </main>
+<div class="clearfix"></div>
+<footer>
+<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+
+  <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 col-xs-offset-0 col-sm-offset-3 col-md-offset-3 col-lg-offset-3 text-center">
+    <p>Nabeel Ahmed Khan</p>
+    <p>nabeel.khan50@gmail.com</p>
+    <p>732-983-6605</p>
+  </div>
+</div>
+</footer>
 
 
 <script src="/js/libs/jquery-3.3.1.min.js"></script>
