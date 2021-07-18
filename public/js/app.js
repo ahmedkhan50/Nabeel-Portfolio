@@ -66,42 +66,47 @@
                 "data": [
                     {
                         "name": "HTML5",
-                        "y": 3.5,
+                        "y": 4.5,
                         "drilldown": "HTML5"
                     },
                     {
                         "name": "CSS3",
-                        "y": 3.5,
+                        "y": 4.5,
                         "drilldown": "CSS3"
                     },
                     {
                         "name": "Javascript",
-                        "y": 3,
+                        "y": 4,
                         "drilldown": "Javascript"
                     },
                     {
-                        "name": "AngularJS",
-                        "y": 2.5,
-                        "drilldown": "AngularJS"
+                        "name": "Java/Spring Boot",
+                        "y": 4,
+                        "drilldown": "Java/Spring Boot"
                     },
                     {
-                        "name": "NodeJS",
+                        "name": "Angular/TypeScript",
+                        "y": 3.5,
+                        "drilldown": "Angular/TypeScript"
+                    },
+                    {
+                        "name": "NodeJS/ExpressJS",
+                        "y": 4,
+                        "drilldown": "NodeJS/ExpressJS"
+                    },
+                    {
+                        "name": "Docker",
                         "y": 2,
-                        "drilldown": "NodeJS"
+                        "drilldown": "Docker"
                     },
                     {
-                        "name": "ExpressJS",
-                        "y": 1,
-                        "drilldown": "ExpressJS"
-                    },
-                    {
-                        "name": "Boostrap 3",
-                        "y": 2,
-                        "drilldown": "Boostrap 3"
+                        "name": "Boostrap 3/4",
+                        "y": 3,
+                        "drilldown": "Boostrap 3/4"
                     },
                     {
                         "name": "jQuery",
-                        "y": 2,
+                        "y": 4,
                         "drilldown": "jQuery"
                     },
                     {
@@ -111,13 +116,13 @@
                     },
                     {
                         "name": "SCSS/SASS",
-                        "y": 1.5,
+                        "y": 3.5,
                         "drilldown": "SCSS/SASS"
                     },
                     {
-                        "name": "Protractor/Karma",
+                        "name": "Protractor/Karma/Cypress",
                         "y": 2,
-                        "drilldown": "Protractor/Karma"
+                        "drilldown": "Protractor/Karma/Cypress"
                     },
                     {
                         "name": "Gulp",
@@ -125,9 +130,9 @@
                         "drilldown": "Gulp"
                     },
                     {
-                        "name": "D3.js",
-                        "y": 1.2,
-                        "drilldown": "D3.js"
+                        "name": "D3.js/Chart.js",
+                        "y": 2,
+                        "drilldown": "D3.js/Chart.js"
                     },
                     {
                         "name": "MongoDB",
@@ -136,13 +141,23 @@
                     },
                     {
                         "name": "AJAX/Rest API",
-                        "y": 3.5,
+                        "y": 4.5,
                         "drilldown": "AJAX/Rest API"
                     },
                     {
                         "name": "GIT",
-                        "y": 3,
+                        "y": 5,
                         "drilldown": "GIT"
+                    },
+                    {
+                        "name": "Python",
+                        "y": 2,
+                        "drilldown": "Python"
+                    },
+                    {
+                        "name": "Microsoft Azure",
+                        "y": 2,
+                        "drilldown": "Microsoft Azure"
                     }
                 ]
             }
