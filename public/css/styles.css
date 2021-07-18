@@ -274,7 +274,7 @@ hr.divider {
 
 .ui-accordion .ui-accordion-content ul{
     list-style-type: circle;
-    list-style-position: inside;
+    list-style-position: outside;
     padding: 0px;
 }
 
