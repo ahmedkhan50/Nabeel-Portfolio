@@ -66,17 +66,17 @@
                 "data": [
                     {
                         "name": "HTML5",
-                        "y": 4.5,
+                        "y": 5.5,
                         "drilldown": "HTML5"
                     },
                     {
                         "name": "CSS3",
-                        "y": 4.5,
+                        "y": 5.5,
                         "drilldown": "CSS3"
                     },
                     {
                         "name": "Javascript",
-                        "y": 4,
+                        "y": 6,
                         "drilldown": "Javascript"
                     },
                     {
@@ -96,12 +96,12 @@
                     },
                     {
                         "name": "Docker",
-                        "y": 2,
+                        "y": 3,
                         "drilldown": "Docker"
                     },
                     {
                         "name": "Boostrap 3/4",
-                        "y": 3,
+                        "y": 5,
                         "drilldown": "Boostrap 3/4"
                     },
                     {
@@ -110,9 +110,9 @@
                         "drilldown": "jQuery"
                     },
                     {
-                        "name": "React",
-                        "y": 1,
-                        "drilldown": "React"
+                        "name": "React & Redux",
+                        "y": 2.5,
+                        "drilldown": "React & Redux"
                     },
                     {
                         "name": "SCSS/SASS",
@@ -151,7 +151,7 @@
                     },
                     {
                         "name": "Python",
-                        "y": 2,
+                        "y": 2.5,
                         "drilldown": "Python"
                     },
                     {
